@@ -1,3 +1,5 @@
+package list;
+
 public class Item {
     private String nome;
     private double preco;
@@ -22,7 +24,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item = [" +
+        return "list.Item = [" +
                 "nome='" + nome + '\'' +
                 ", preco=" + preco +
                 ", quantidade=" + quantidade +

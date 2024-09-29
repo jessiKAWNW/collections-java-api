@@ -17,12 +17,6 @@ public class Produto implements Comparable<Produto> {
         this.quantidadeProduto = quantidadeProduto;
     }
 
-    public Produto(long codigoProduto, String nomeProduto, double precoProduto) {
-        this.codigoProduto = codigoProduto;
-        this.nomeProduto = nomeProduto;
-        this.precoProduto = precoProduto;
-    }
-
     @Override
     public int compareTo(Produto p) {
         return nomeProduto.compareTo(p.getNomeProduto());

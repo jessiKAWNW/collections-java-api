@@ -13,10 +13,12 @@ public class Convidado {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public int getCodigoConvite() {
+
         return codigoConvite;
     }
 

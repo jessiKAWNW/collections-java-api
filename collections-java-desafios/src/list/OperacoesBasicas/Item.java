@@ -1,4 +1,4 @@
-package list;
+package list.OperacoesBasicas;
 
 public class Item {
     private String nome;
@@ -24,7 +24,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return "list.Item = [" +
+        return "list.OperacoesBasicas.Item = [" +
                 "nome='" + nome + '\'' +
                 ", preco=" + preco +
                 ", quantidade=" + quantidade +
